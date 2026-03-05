@@ -87,3 +87,4 @@ if st.button("AI分析を実行する"):
 if st.sidebar.button("データを保存する"):
     edited_df.to_csv(f"PL_data_{target_month}.csv", index=False)
     st.sidebar.success("CSVに保存されました！")
+
